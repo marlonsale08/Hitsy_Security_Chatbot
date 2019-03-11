@@ -1,1 +1,1 @@
-worker: python3.6 bot_hitssy_security.py
+worker: python3.7 bot_hitssy_security.py

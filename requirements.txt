@@ -1,5 +1,5 @@
 rasa-nlu
 pyTelegramBotAPI
 Pillow
-tensorflow==1.12.0
+tensorflow
 sklearn-crfsuite
