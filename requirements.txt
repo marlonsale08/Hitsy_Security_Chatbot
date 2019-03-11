@@ -1,3 +1,5 @@
 rasa-nlu
 pyTelegramBotAPI
 Pillow
+tensorflow
+sklearn-crfsuite
