@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/marlon/Hitssy_Security/Hitssy_Chatbot_Security/models/nlu/default/model_20190308-114122/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/marlon/Hitssy_Security/Hitssy_Chatbot_Security/models/nlu/default/model_20190308-114122/intent_classifier_tensorflow_embedding.ckpt"
