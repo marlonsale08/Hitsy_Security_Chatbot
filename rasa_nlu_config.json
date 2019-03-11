@@ -1,0 +1,6 @@
+{
+  "pipeline": "tensorflow_embedding",
+  "path" : "./models/",
+  "data" : "training_data.json",
+  "num_threads": 4
+}

@@ -1,0 +1,434 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "¿Como te llamas?",
+        "intent": "nombre",
+        "entities": []
+      },
+      {
+        "text": "¿Cual es tu nombre?",
+        "intent": "nombre",
+        "entities": []
+      },
+      {
+        "text": "¿Quien eres?",
+        "intent": "nombre",
+        "entities": []
+      },
+      {
+        "text": "¿Que puedes hacer?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Que funciones tienes?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Que puedes hacer por mi?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Que haces?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Que comnados tienes?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Cuales son tus funcionalidades?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Puedes ayudarme?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "Cuantas funciones tienes?",
+        "intent": "funciones",
+        "entities": []
+      },
+      {
+        "text": "¿Cuantos años tienes?",
+        "intent": "caracteristica",
+        "entities": []
+      },
+      {
+        "text": "¿Cual es tu edad?",
+        "intent": "caracteristica",
+        "entities": []
+      },
+      {
+        "text": "Buenos dias",
+        "intent": "saludo_formal",
+        "entities": []
+      },
+      {
+        "text": "Buenas tardes",
+        "intent": "saludo_formal",
+        "entities": []
+      },
+      {
+        "text": "Buenas noches",
+        "intent": "saludo_formal",
+        "entities": []
+      },
+      {
+        "text": "Buenas",
+        "intent": "saludo_formal",
+        "entities": []
+      },
+      {
+        "text": "Hola",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Holas",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "puedes buscar a una persona",
+        "intent": "busqueda",
+        "entities": []
+      },
+      {
+        "text": "puedes buscar un desconocido",
+        "intent": "busqueda",
+        "entities": []
+      },
+      {
+        "text": "Dime que personas desconocidas estuvieron entre las 18 y 19 del dia 06-03-19",
+        "intent": "funcion_buscar",
+        "entities": [
+          {
+            "start": 68,
+            "end": 76,
+            "value": "06-03-19",
+            "entity": "dia"
+          },
+          {
+            "start": 52,
+            "end": 54,
+            "value": "18",
+            "entity": "hora_inicio"
+          },
+          {
+            "start": 57,
+            "end": 59,
+            "value": "19",
+            "entity": "hora_final"
+          }
+        ]
+      },
+      {
+        "text": "muestrame las personas desconocidas entre las 16 y 18 del dia 18-11-19",
+        "intent": "funcion_buscar",
+        "entities": [
+          {
+            "start": 62,
+            "end": 70,
+            "value": "18-11-19",
+            "entity": "dia"
+          },
+          {
+            "start": 46,
+            "end": 48,
+            "value": "16",
+            "entity": "hora_inicio"
+          },
+          {
+            "start": 51,
+            "end": 53,
+            "value": "18",
+            "entity": "hora_final"
+          }
+        ]
+      },
+      {
+        "text": "Enviame las fotos de las personas deconocidas desde las 18 hasta 20 del dia 18-12-18",
+        "intent": "funcion_buscar",
+        "entities": [
+          {
+            "start": 76,
+            "end": 84,
+            "value": "18-12-18",
+            "entity": "dia"
+          },
+          {
+            "start": 56,
+            "end": 58,
+            "value": "18",
+            "entity": "hora_inicio"
+          },
+          {
+            "start": 65,
+            "end": 67,
+            "value": "20",
+            "entity": "hora_final"
+          }
+        ]
+      },
+      {
+        "text": "Podrias buscar a mario villacorta ",
+        "intent": "buscar_ejemplo",
+        "entities": []
+      },
+      {
+        "text": "Avisame cuando llegue Marlon Vergara",
+        "intent": "buscar_ejemplo",
+        "entities": []
+      },
+      {
+        "text": "Enviame un mensaje cuando llegue Marcos Castañeda",
+        "intent": "buscar_ejemplo",
+        "entities": []
+      },
+      {
+        "text": "Informame cuando ingrese Carlos Lazarte",
+        "intent": "buscar_ejemplo",
+        "entities": []
+      },
+      {
+        "text": "Puedes decirme cuando llegue Andres Caceres",
+        "intent": "buscar_ejemplo",
+        "entities": []
+      },
+      {
+        "text": "Enviame la foto de un desconocido al azar",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "Enviame la foto de un desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "Mandame la foto de un invitado",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "Muestrame un desconocido de hoy",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "puedes enviarme a un desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "podrias enviarme el reporte de los desconocidos",
+        "intent": "reporte_desconocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "Podrias buscar a un desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "busca a un desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "Ayudame buscando a un desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "Puedes buscar a una persona desconocida",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "12-13-14",
+        "intent": "fecha_busqueda",
+        "entities": []
+      },
+      {
+        "text": "del 12-13-14",
+        "intent": "fecha_busqueda",
+        "entities": []
+      },
+      
+      {
+        "text": "enviame reporte de desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "reporte de desconocido",
+        "intent": "reporte_desconocido",
+        "entities": []
+      },
+      {
+        "text": "el dia 12-12-12",
+        "intent": "fecha_busqueda",
+        "entities": []
+      },
+      {
+        "text": "enviame reporte de colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      },
+      {
+        "text": "dame reporte de colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      },
+      {
+        "text": "hazme llegar reporte de colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      },
+      {
+        "text": "puedes enviarme reporte de colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      },
+      {
+        "text": "enviame un colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      },
+      {
+        "text": "colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      },
+      {
+        "text": "reporte de colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "dame un colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "colaboradores",
+        "intent": "reporte_conocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "reporte de colaboradores",
+        "intent": "reporte_conocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "enviar colaboradores",
+        "intent": "reporte_conocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "podrias enviarme a un colaborador",
+        "intent": "reporte_conocido",
+        "entities": []
+      }
+      ,
+      {
+        "text": "enviame la asistencia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "reporte de asistencia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "podrias enviarme la asistencia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "el reporte de asistencia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "mandame el reporte de asistencia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "asistencia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "mandame la asistencia del dia",
+        "intent": "reporte_asistencia",
+        "entities": []
+      }
+      ,
+      {
+        "text": "Adios",
+        "intent": "despedida",
+        "entities": []
+      }
+      ,
+      {
+        "text": "hasta luego",
+        "intent": "despedida",
+        "entities": []
+      }
+      ,
+      {
+        "text": "Chau",
+        "intent": "despedida",
+        "entities": []
+      }
+      ,
+      {
+        "text": "nos vemos",
+        "intent": "despedida",
+        "entities": []
+      }
+      ,
+      {
+        "text": "ya vuelvo",
+        "intent": "despedida",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
